@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import PropTypes from 'prop-types';
-import {display, size, width, height, compose} from 'styled-system';
-import {propType} from '@styled-system/prop-types';
+import {display, size, width, height, space, compose} from 'styled-system';
+import propTypes, {propType} from '@styled-system/prop-types';
 
 // ResponsiveImage styles
 const ImageStyled = styled.img`
 	max-width: 100%;
 	height: auto;
-	${compose(display, size, width, height)}
+	${compose(display, size, width, height, space)}
 `;
 
 // ResponsiveImage component
@@ -26,7 +26,8 @@ ResponsiveImage.propTypes = {
 	display: propType,
 	size: propType,
 	width: propType,
-	height: propType
+	height: propType,
+	space: propTypes.space,
 };
 
 export default ResponsiveImage;
