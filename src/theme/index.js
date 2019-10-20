@@ -1,4 +1,3 @@
-import {buttonSizes} from './buttons';
 // App theme
 
 // Colors Palette
@@ -72,7 +71,6 @@ const theme = {
 		large: '0 0 24px rgba(0, 0, 0, .125)'
 	},
 	maxContainerWidth: '992px',
-	buttonSizes
 };
 
 export default theme;
