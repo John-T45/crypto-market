@@ -19,7 +19,7 @@ const HeaderTitle = styled.h1`
 	display: flex;
     color: ${({theme}) => theme.colors.white};
 	font-size: ${({theme}) => theme.fontSizes[3]};
-	font-weight: ${({theme}) => theme.fontWeights.bold};
+	font-weight: ${({theme}) => theme.fontWeights.heavy};
 	padding: 1.2rem 0;
 	justify-content: center;
 	width: 100%;
@@ -39,8 +39,5 @@ Header.propTypes = {
     title: PropTypes.string
 };
 
-/**
- * @component
- */
 export default Header;
 
