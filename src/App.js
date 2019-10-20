@@ -1,8 +1,10 @@
 import React from 'react';
-import styled, {ThemeProvider} from 'styled-components/macro';
+import styled from 'styled-components/macro';
+import {ThemeProvider} from 'styled-components';
 import theme from './theme';
 import {GlobalStyles} from './theme/global';
 import ScreenReaderOnly from "./components/ScreenReaderOnly";
+import AppRoutes from './routes';
 
 const AppStyled = styled.div`
 	display: flex;
@@ -17,7 +19,7 @@ const App = () => {
           <ScreenReaderOnly href="#mainContent">
             Skip to main content
           </ScreenReaderOnly>
-
+            <AppRoutes />
           <GlobalStyles />
         </AppStyled>
       </ThemeProvider>
