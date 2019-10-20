@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro';
 
+// ScreenReaderOnly component styles
 const ScreenReaderOnly = styled.a`
 	display: flex;
 	border: 0;
@@ -13,7 +14,7 @@ const ScreenReaderOnly = styled.a`
 	
 	&:active,
 	&:focus {
-		color: #000000;
+		color: #ffffff;
 		position: absolute;
 		width: auto;
 		height: auto;
@@ -24,7 +25,7 @@ const ScreenReaderOnly = styled.a`
 		padding: 1.2rem 0;
 		z-index: 9999;
 		align-self: center;
-		outline: 2px dotted #616161;
+		outline: 2px dotted #ffffff;
     	outline-offset: 2px;
     	margin-top: 1rem;
 	}
