@@ -13,7 +13,7 @@ const bodyBg = whiteLilac;
 const bodyColor = slateGray;
 
 // Responsive breakpoints and media-queries (mobile first).
-const breakpoints = [ '320px', '576px', '768px', '992px', '1200px'];
+const breakpoints = [ '360px', '576px', '768px', '992px', '1200px'];
 
 const fonts = {
 	base: 'SF Pro Text',
@@ -44,6 +44,7 @@ const theme = {
 		md: `@media screen and (min-width: ${breakpoints[1]})`,
 		lg: `@media screen and (min-width: ${breakpoints[2]})`,
 		xl: `@media screen and (min-width: ${breakpoints[3]})`,
+		xxl: `@media screen and (min-width: ${breakpoints[4]})`,
 	},
 	colors: {
 		white,
