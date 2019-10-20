@@ -1,19 +1,16 @@
 import React from 'react';
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 
+// Container styles
 const ContainerStyled = styled.div`
 	display: block;
 	margin: 0 auto;
 	max-width: ${({theme}) => theme.maxContainerWidth};
-	padding: 0 1.6rem;
+	padding: 0;
 	width: 100%;
-	${({theme}) => css`
-		${theme.mediaQueries.lg} {
-			padding: 0;
-		}
-	`}
 `;
 
+// Container component
 const Container = ({children, ...props}) => (
     <ContainerStyled {...props}>
         {children}
