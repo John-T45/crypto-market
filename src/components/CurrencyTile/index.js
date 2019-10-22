@@ -2,12 +2,14 @@ import React from 'react';
 import styled, {css} from 'styled-components/macro';
 import PropTypes from 'prop-types';
 import ResponsiveImage from '../ResponsiveImage';
+import {Link} from '@reach/router';
 
 // CurrencyTile styles
 const CurrencyTileStyled = styled.div`
 	background-color: ${({theme}) => theme.colors.white};
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 0.8rem;
 	padding: 1.6rem 1.6rem 1.4rem;
 	width: 100%;
 `;
@@ -16,11 +18,16 @@ const CurrencyNameWrap = styled.div`
 	display: inline-block;
 	margin-left: 1rem;
 `;
-const CurrencyName = styled.div`
+const CurrencyName = styled(Link)`
 	color: ${({theme}) => theme.colors.black};
 	font-size: ${({theme}) => theme.fontSizes[1]};
 	font-weight: ${({theme}) => theme.fontWeights.medium};
+	line-height: 1.31;
 	margin-bottom: 0.4rem;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 `;
 const CurrencyPair = styled.div`
 	color: ${({theme}) => theme.colors.slateGray};
@@ -38,7 +45,8 @@ const CurrencyPrice = styled.div`
 `;
 
 // CurrencyTile component
-const CurrencyTile = ({image, currencyName, currencyPair, currencyPrice}) => {
+const CurrencyTile = (
+	{image, currencyName, currencyPair, currencyPrice, routeParam}) => {
 	return (
 		<CurrencyTileStyled>
 			<div>
@@ -58,7 +66,7 @@ const CurrencyTile = ({image, currencyName, currencyPair, currencyPrice}) => {
 `					}
 				/>
 				<CurrencyNameWrap>
-					<CurrencyName>{currencyName}</CurrencyName>
+					<CurrencyName to={`/history/${routeParam}`}>{currencyName}</CurrencyName>
 					<CurrencyPair>{currencyPair}</CurrencyPair>
 				</CurrencyNameWrap>
 			</div>
@@ -71,6 +79,7 @@ CurrencyTile.protoTypes = {
 	currencyName: PropTypes.string,
 	currencyPair: PropTypes.string,
 	currencyPrice: PropTypes.string,
+	routeParam: PropTypes.string,
 	image: PropTypes.shape({
 		src1x: PropTypes.string,
 		src2x: PropTypes.string,
