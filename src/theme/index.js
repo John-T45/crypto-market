@@ -6,7 +6,8 @@ const white = '#ffffff';
 const whiteLilac = '#f2f3fa';
 const slateGray = '#7c8691';
 const black = '#000000';
-const error = '#cc0000';
+const green = '#228b22';
+const red = '#cc0000';
 const toryBlue = '#1058a1';
 const matisse = '#2065aa';
 const bodyBg = whiteLilac;
@@ -55,7 +56,8 @@ const theme = {
 		matisse,
 		bodyBg,
 		bodyColor,
-		error,
+		green,
+		red,
 	},
 	space: [
 		0, 4, 8, 10, 12, 14, 16, 20, 24
