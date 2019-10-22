@@ -1,5 +1,7 @@
 # Crypto Market
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7acf0196-460f-4259-802c-413917a69f74/deploy-status)](https://app.netlify.com/sites/crypto-market-cj/deploys)
+
 ## Table of Contents
 
 * [Description](#user-content-description)
