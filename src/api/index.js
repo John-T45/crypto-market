@@ -30,7 +30,7 @@ function filterHistoryPrices(data) {
 			price: formatPrice(item.price),
 			timestamp: formatTime(item.timestamp),
 			taker_side: item.taker_side,
-			size: formatPrice(item.size)
+			size: Number(item.size).toFixed(3)
 		});
 	}
 	return filteredData;
