@@ -1,0 +1,52 @@
+[
+	{
+		"currencyName": "Bitcoin",
+		"image": {
+			"src1x": "/images/icon-bitcoin.png",
+			"src2x": "/images/icon-bitcoin@2x.png"
+		},
+		"currencyPair": "BTC/AUD",
+		"routeParam": "BTCAUD",
+		"currencyPrice": "$12,100"
+	},
+	{
+		"currencyName": "Ethereum",
+		"image": {
+			"src1x": "/images/icon-ethereum.png",
+			"src2x": "/images/icon-ethereum@2x.png"
+		},
+		"currencyPair": "ETH/AUD",
+		"routeParam": "ETHAUD",
+		"currencyPrice": "$254.49"
+	},
+	{
+		"currencyName": "Litecoin",
+		"image": {
+			"src1x": "/images/icon-litecoin.png",
+			"src2x": "/images/icon-litecoin@2x.png"
+		},
+		"currencyPair": "LTC/AUD",
+		"routeParam": "LTCAUD",
+		"currencyPrice": "$79.82"
+	},
+	{
+		"currencyName": "Ripple",
+		"image": {
+			"src1x": "/images/icon-ripple.png",
+			"src2x": "/images/icon-ripple@2x.png"
+		},
+		"currencyPair": "XRP/AUD",
+		"routeParam": "XRPAUD",
+		"currencyPrice": "$0.4316"
+	},
+	{
+		"currencyName": "Zcash",
+		"image": {
+			"src1x": "/images/icon-zcash@1x.png",
+			"src2x": "/images/icon-zcash@2x.png"
+		},
+		"currencyPair": "ZEC/AUD",
+		"routeParam": "ZECAUD",
+		"currencyPrice": "$53.63"
+	}
+]

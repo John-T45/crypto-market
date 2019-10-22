@@ -1,0 +1,122 @@
+[
+	{
+		"price": 12050,
+		"timestamp": "23:29:29",
+		"taker_side": "sell",
+		"size": 0.083
+	},
+	{
+		"price": 12050,
+		"timestamp": "23:29:01",
+		"taker_side": "sell",
+		"size": 0.083
+	},
+	{
+		"price": 12060,
+		"timestamp": "23:23:27",
+		"taker_side": "sell",
+		"size": 0.066
+	},
+	{
+		"price": 12070,
+		"timestamp": "23:16:42",
+		"taker_side": "sell",
+		"size": 0.24
+	},
+	{
+		"price": 12110,
+		"timestamp": "23:15:23",
+		"taker_side": "buy",
+		"size": 0.017
+	},
+	{
+		"price": 12100,
+		"timestamp": "23:14:35",
+		"taker_side": "buy",
+		"size": 0.055
+	},
+	{
+		"price": 12070,
+		"timestamp": "23:11:31",
+		"taker_side": "sell",
+		"size": 0.005
+	},
+	{
+		"price": 12100,
+		"timestamp": "23:10:31",
+		"taker_side": "buy",
+		"size": 0.041
+	},
+	{
+		"price": 12070,
+		"timestamp": "23:10:30",
+		"taker_side": "sell",
+		"size": 0.005
+	},
+	{
+		"price": 12100,
+		"timestamp": "23:09:25",
+		"taker_side": "sell",
+		"size": 0.186
+	},
+	{
+		"price": 12100,
+		"timestamp": "23:09:25",
+		"taker_side": "sell",
+		"size": 0.372
+	},
+	{
+		"price": 12090,
+		"timestamp": "23:08:50",
+		"taker_side": "buy",
+		"size": 0.012
+	},
+	{
+		"price": 12090,
+		"timestamp": "23:08:43",
+		"taker_side": "buy",
+		"size": 0.003
+	},
+	{
+		"price": 12100,
+		"timestamp": "23:06:59",
+		"taker_side": "buy",
+		"size": 0.015
+	},
+	{
+		"price": 12090,
+		"timestamp": "23:03:14",
+		"taker_side": "buy",
+		"size": 0.037
+	},
+	{
+		"price": 12130,
+		"timestamp": "23:02:04",
+		"taker_side": "buy",
+		"size": 0.064
+	},
+	{
+		"price": 12120,
+		"timestamp": "23:02:04",
+		"taker_side": "buy",
+		"size": 0.001
+	},
+	{
+		"price": 12110,
+		"timestamp": "23:02:04",
+		"taker_side": "buy",
+		"size": 0.001
+	},
+	{
+		"price": 12080,
+		"timestamp": "22:59:41",
+		"taker_side": "sell",
+		"size": 0.001
+	},
+	{
+		"price": 12100,
+		"timestamp": "22:51:19",
+		"taker_side": "buy",
+		"size": 0.008
+	}
+]

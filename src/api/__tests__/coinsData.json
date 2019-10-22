@@ -1,0 +1,628 @@
+{
+	"exchange_rates": {
+		"AUDUSD": {
+			"base_currency": "AUD",
+			"counter_currency": "USD",
+			"bid": "0.68207",
+			"midpoint": "0.68549",
+			"ask": "0.68892",
+			"roundtrip_spread": "0.9943"
+		},
+		"BATAUD": {
+			"base_currency": "BAT",
+			"counter_currency": "AUD",
+			"bid": "0.3427",
+			"midpoint": "0.34386834",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATBTC": {
+			"base_currency": "BAT",
+			"counter_currency": "BTC",
+			"bid": "0.00002831",
+			"midpoint": "0.00002841",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATDAI": {
+			"base_currency": "BAT",
+			"counter_currency": "DAI",
+			"bid": "0.20760569",
+			"midpoint": "0.23385385",
+			"ask": "0.21179975",
+			"roundtrip_spread": "1.9802"
+		},
+		"BATETH": {
+			"base_currency": "BAT",
+			"counter_currency": "ETH",
+			"bid": "0.00132758",
+			"midpoint": "0.00135122",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATEUR": {
+			"base_currency": "BAT",
+			"counter_currency": "EUR",
+			"bid": "0.21091048",
+			"midpoint": "0.21162942",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATGBP": {
+			"base_currency": "BAT",
+			"counter_currency": "GBP",
+			"bid": "0.18166301",
+			"midpoint": "0.18228228",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATLTC": {
+			"base_currency": "BAT",
+			"counter_currency": "LTC",
+			"bid": "0.00427289",
+			"midpoint": "0.00430805",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATUSD": {
+			"base_currency": "BAT",
+			"counter_currency": "USD",
+			"bid": "0.23491742",
+			"midpoint": "0.23572",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATUSDC": {
+			"base_currency": "BAT",
+			"counter_currency": "USDC",
+			"bid": "0.2344068",
+			"midpoint": "0.23572",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATXRP": {
+			"base_currency": "BAT",
+			"counter_currency": "XRP",
+			"bid": "0.76976412",
+			"midpoint": "0.79675511",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATZEC": {
+			"base_currency": "BAT",
+			"counter_currency": "ZEC",
+			"bid": "0.00629111",
+			"midpoint": "0.0064124",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BATZRX": {
+			"base_currency": "BAT",
+			"counter_currency": "ZRX",
+			"bid": null,
+			"midpoint": "0.73396438",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"BTCAUD": {
+			"base_currency": "BTC",
+			"counter_currency": "AUD",
+			"bid": "12080.0",
+			"midpoint": "12101.97577289",
+			"ask": "12130.0",
+			"roundtrip_spread": "0.4122"
+		},
+		"BTCDAI": {
+			"base_currency": "BTC",
+			"counter_currency": "DAI",
+			"bid": "8038.94782257",
+			"midpoint": "8230.16627619",
+			"ask": "8119.74126803",
+			"roundtrip_spread": "0.995"
+		},
+		"BTCEUR": {
+			"base_currency": "BTC",
+			"counter_currency": "EUR",
+			"bid": "7434.48666347",
+			"midpoint": "7448.00784816",
+			"ask": "7465.25854535",
+			"roundtrip_spread": "0.4122"
+		},
+		"BTCGBP": {
+			"base_currency": "BTC",
+			"counter_currency": "GBP",
+			"bid": "6403.52830169",
+			"midpoint": "6415.17539428",
+			"ask": "6430.03297181",
+			"roundtrip_spread": "0.4122"
+		},
+		"BTCUSD": {
+			"base_currency": "BTC",
+			"counter_currency": "USD",
+			"bid": "8280.7192",
+			"midpoint": "8295.84300308",
+			"ask": "8314.9937",
+			"roundtrip_spread": "0.4122"
+		},
+		"BTCUSDC": {
+			"base_currency": "BTC",
+			"counter_currency": "USDC",
+			"bid": "8280.0",
+			"midpoint": "8295.84300308",
+			"ask": "8356.0",
+			"roundtrip_spread": "0.9095"
+		},
+		"DAIAUD": {
+			"base_currency": "DAI",
+			"counter_currency": "AUD",
+			"bid": "1.48752363",
+			"midpoint": "1.47044122",
+			"ask": "1.50247361",
+			"roundtrip_spread": "0.995"
+		},
+		"DAIEUR": {
+			"base_currency": "DAI",
+			"counter_currency": "EUR",
+			"bid": "0.91547803",
+			"midpoint": "0.90496444",
+			"ask": "0.92467881",
+			"roundtrip_spread": "0.995"
+		},
+		"DAIGBP": {
+			"base_currency": "DAI",
+			"counter_currency": "GBP",
+			"bid": "0.78852646",
+			"midpoint": "0.77947093",
+			"ask": "0.79645135",
+			"roundtrip_spread": "0.995"
+		},
+		"DAIUSD": {
+			"base_currency": "DAI",
+			"counter_currency": "USD",
+			"bid": "1.01968257",
+			"midpoint": "1.00798",
+			"ask": "1.02993063",
+			"roundtrip_spread": "0.995"
+		},
+		"DAIUSDC": {
+			"base_currency": "DAI",
+			"counter_currency": "USDC",
+			"bid": "0.9970686",
+			"midpoint": "1.00798",
+			"ask": "1.0172114",
+			"roundtrip_spread": "1.9802"
+		},
+		"ETHAUD": {
+			"base_currency": "ETH",
+			"counter_currency": "AUD",
+			"bid": "254.85725972",
+			"midpoint": "254.48766",
+			"ask": "256.8",
+			"roundtrip_spread": "0.7565"
+		},
+		"ETHBTC": {
+			"base_currency": "ETH",
+			"counter_currency": "BTC",
+			"bid": "0.02097526",
+			"midpoint": "0.0210286",
+			"ask": "0.02135253",
+			"roundtrip_spread": "1.7669"
+		},
+		"ETHDAI": {
+			"base_currency": "ETH",
+			"counter_currency": "DAI",
+			"bid": "175.76692416",
+			"midpoint": "173.0689101",
+			"ask": "179.31777112",
+			"roundtrip_spread": "1.9802"
+		},
+		"ETHEUR": {
+			"base_currency": "ETH",
+			"counter_currency": "EUR",
+			"bid": "156.84874987",
+			"midpoint": "156.62121",
+			"ask": "158.04438536",
+			"roundtrip_spread": "0.7565"
+		},
+		"ETHGBP": {
+			"base_currency": "ETH",
+			"counter_currency": "GBP",
+			"bid": "135.09815195",
+			"midpoint": "134.902185",
+			"ask": "136.12798575",
+			"roundtrip_spread": "0.7565"
+		},
+		"ETHUSD": {
+			"base_currency": "ETH",
+			"counter_currency": "USD",
+			"bid": "174.70210297",
+			"midpoint": "174.45",
+			"ask": "176.033832",
+			"roundtrip_spread": "0.7565"
+		},
+		"ETHUSDC": {
+			"base_currency": "ETH",
+			"counter_currency": "USDC",
+			"bid": "173.66771115",
+			"midpoint": "174.45",
+			"ask": "178.4324115",
+			"roundtrip_spread": "2.6703"
+		},
+		"EURAUD": {
+			"base_currency": "EUR",
+			"counter_currency": "AUD",
+			"bid": "1.61674",
+			"midpoint": "1.62486",
+			"ask": "1.63299",
+			"roundtrip_spread": "0.9951"
+		},
+		"EURUSD": {
+			"base_currency": "EUR",
+			"counter_currency": "USD",
+			"bid": "1.10826",
+			"midpoint": "1.11383",
+			"ask": "1.1194",
+			"roundtrip_spread": "0.9952"
+		},
+		"GBPAUD": {
+			"base_currency": "GBP",
+			"counter_currency": "AUD",
+			"bid": "1.87703",
+			"midpoint": "1.88646",
+			"ask": "1.89589",
+			"roundtrip_spread": "0.9948"
+		},
+		"GBPEUR": {
+			"base_currency": "GBP",
+			"counter_currency": "EUR",
+			"bid": "1.15519",
+			"midpoint": "1.161",
+			"ask": "1.1668",
+			"roundtrip_spread": "0.995"
+		},
+		"GBPUSD": {
+			"base_currency": "GBP",
+			"counter_currency": "USD",
+			"bid": "1.28669",
+			"midpoint": "1.29316",
+			"ask": "1.29962",
+			"roundtrip_spread": "0.9949"
+		},
+		"LTCAUD": {
+			"base_currency": "LTC",
+			"counter_currency": "AUD",
+			"bid": "79.543991",
+			"midpoint": "79.82000715",
+			"ask": "80.42",
+			"roundtrip_spread": "1.0893"
+		},
+		"LTCBTC": {
+			"base_currency": "LTC",
+			"counter_currency": "BTC",
+			"bid": "0.00657333",
+			"midpoint": "0.00659562",
+			"ask": "0.00662567",
+			"roundtrip_spread": "0.79"
+		},
+		"LTCDAI": {
+			"base_currency": "LTC",
+			"counter_currency": "DAI",
+			"bid": "53.83789741",
+			"midpoint": "54.28303141",
+			"ask": "54.92553171",
+			"roundtrip_spread": "1.9802"
+		},
+		"LTCETH": {
+			"base_currency": "LTC",
+			"counter_currency": "ETH",
+			"bid": "0.3082839",
+			"midpoint": "0.31364981",
+			"ask": "0.31577693",
+			"roundtrip_spread": "2.3729"
+		},
+		"LTCEUR": {
+			"base_currency": "LTC",
+			"counter_currency": "EUR",
+			"bid": "48.95436591",
+			"midpoint": "49.12421334",
+			"ask": "49.49349482",
+			"roundtrip_spread": "1.0893"
+		},
+		"LTCGBP": {
+			"base_currency": "LTC",
+			"counter_currency": "GBP",
+			"bid": "42.16574483",
+			"midpoint": "42.31204519",
+			"ask": "42.63011143",
+			"roundtrip_spread": "1.0893"
+		},
+		"LTCUSD": {
+			"base_currency": "LTC",
+			"counter_currency": "USD",
+			"bid": "54.52661039",
+			"midpoint": "54.71621",
+			"ask": "55.1271058",
+			"roundtrip_spread": "1.0893"
+		},
+		"LTCUSDC": {
+			"base_currency": "LTC",
+			"counter_currency": "USDC",
+			"bid": "54.42670525",
+			"midpoint": "54.71621",
+			"ask": "55.36456996",
+			"roundtrip_spread": "1.694"
+		},
+		"LTCXRP": {
+			"base_currency": "LTC",
+			"counter_currency": "XRP",
+			"bid": "178.73597619",
+			"midpoint": "184.94578334",
+			"ask": "186.41169404",
+			"roundtrip_spread": "4.1176"
+		},
+		"USDCAUD": {
+			"base_currency": "USDC",
+			"counter_currency": "AUD",
+			"bid": "1.454",
+			"midpoint": "1.4588",
+			"ask": "1.461",
+			"roundtrip_spread": "0.4791"
+		},
+		"USDCEUR": {
+			"base_currency": "USDC",
+			"counter_currency": "EUR",
+			"bid": "0.89484633",
+			"midpoint": "0.8978",
+			"ask": "0.89915439",
+			"roundtrip_spread": "0.4791"
+		},
+		"USDCGBP": {
+			"base_currency": "USDC",
+			"counter_currency": "GBP",
+			"bid": "0.77075581",
+			"midpoint": "0.7733",
+			"ask": "0.77446646",
+			"roundtrip_spread": "0.4791"
+		},
+		"USDCUSD": {
+			"base_currency": "USDC",
+			"counter_currency": "USD",
+			"bid": "0.99670246",
+			"midpoint": "1.0",
+			"ask": "1.00150089",
+			"roundtrip_spread": "0.4791"
+		},
+		"XRPAUD": {
+			"base_currency": "XRP",
+			"counter_currency": "AUD",
+			"bid": "0.43022158",
+			"midpoint": "0.43158598",
+			"ask": "0.44144703",
+			"roundtrip_spread": "2.5429"
+		},
+		"XRPBTC": {
+			"base_currency": "XRP",
+			"counter_currency": "BTC",
+			"bid": "0.00003554",
+			"midpoint": "0.00003566",
+			"ask": "0.00003678",
+			"roundtrip_spread": "3.3714"
+		},
+		"XRPDAI": {
+			"base_currency": "XRP",
+			"counter_currency": "DAI",
+			"bid": "0.28170284",
+			"midpoint": "0.29350781",
+			"ask": "0.2873938",
+			"roundtrip_spread": "1.9802"
+		},
+		"XRPETH": {
+			"base_currency": "XRP",
+			"counter_currency": "ETH",
+			"bid": "0.00166703",
+			"midpoint": "0.0016959",
+			"ask": "0.00175269",
+			"roundtrip_spread": "4.8873"
+		},
+		"XRPEUR": {
+			"base_currency": "XRP",
+			"counter_currency": "EUR",
+			"bid": "0.26477455",
+			"midpoint": "0.26561413",
+			"ask": "0.27168312",
+			"roundtrip_spread": "2.5429"
+		},
+		"XRPGBP": {
+			"base_currency": "XRP",
+			"counter_currency": "GBP",
+			"bid": "0.22805762",
+			"midpoint": "0.22878081",
+			"ask": "0.23400816",
+			"roundtrip_spread": "2.5429"
+		},
+		"XRPUSD": {
+			"base_currency": "XRP",
+			"counter_currency": "USD",
+			"bid": "0.29491259",
+			"midpoint": "0.29585",
+			"ask": "0.30260752",
+			"roundtrip_spread": "2.5429"
+		},
+		"XRPUSDC": {
+			"base_currency": "XRP",
+			"counter_currency": "USDC",
+			"bid": "0.29428345",
+			"midpoint": "0.29585",
+			"ask": "0.30732132",
+			"roundtrip_spread": "4.2424"
+		},
+		"ZECAUD": {
+			"base_currency": "ZEC",
+			"counter_currency": "AUD",
+			"bid": "53.44268127",
+			"midpoint": "53.625488",
+			"ask": "54.68704627",
+			"roundtrip_spread": "2.2754"
+		},
+		"ZECBTC": {
+			"base_currency": "ZEC",
+			"counter_currency": "BTC",
+			"bid": "0.00441622",
+			"midpoint": "0.00443113",
+			"ask": "0.0045",
+			"roundtrip_spread": "1.8618"
+		},
+		"ZECDAI": {
+			"base_currency": "ZEC",
+			"counter_currency": "DAI",
+			"bid": "35.86899538",
+			"midpoint": "36.46897756",
+			"ask": "36.59362154",
+			"roundtrip_spread": "1.9802"
+		},
+		"ZECETH": {
+			"base_currency": "ZEC",
+			"counter_currency": "ETH",
+			"bid": "0.20713264",
+			"midpoint": "0.2107194",
+			"ask": "0.21448999",
+			"roundtrip_spread": "3.4302"
+		},
+		"ZECEUR": {
+			"base_currency": "ZEC",
+			"counter_currency": "EUR",
+			"bid": "32.89063751",
+			"midpoint": "33.003128",
+			"ask": "33.65646657",
+			"roundtrip_spread": "2.2754"
+		},
+		"ZECGBP": {
+			"base_currency": "ZEC",
+			"counter_currency": "GBP",
+			"bid": "28.32961275",
+			"midpoint": "28.426508",
+			"ask": "28.98924243",
+			"roundtrip_spread": "2.2754"
+		},
+		"ZECLTC": {
+			"base_currency": "ZEC",
+			"counter_currency": "LTC",
+			"bid": "0.66656643",
+			"midpoint": "0.67183016",
+			"ask": "0.68456682",
+			"roundtrip_spread": "2.6295"
+		},
+		"ZECUSD": {
+			"base_currency": "ZEC",
+			"counter_currency": "USD",
+			"bid": "36.63442358",
+			"midpoint": "36.76",
+			"ask": "37.48742335",
+			"roundtrip_spread": "2.2754"
+		},
+		"ZECUSDC": {
+			"base_currency": "ZEC",
+			"counter_currency": "USDC",
+			"bid": "36.56600186",
+			"midpoint": "36.76",
+			"ask": "37.602",
+			"roundtrip_spread": "2.7552"
+		},
+		"ZECXRP": {
+			"base_currency": "ZEC",
+			"counter_currency": "XRP",
+			"bid": "120.08186066",
+			"midpoint": "124.25215481",
+			"ask": "126.60898924",
+			"roundtrip_spread": "5.1553"
+		},
+		"ZRXAUD": {
+			"base_currency": "ZRX",
+			"counter_currency": "AUD",
+			"bid": "0.4669",
+			"midpoint": "0.46850821",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXBTC": {
+			"base_currency": "ZRX",
+			"counter_currency": "BTC",
+			"bid": "0.00003857",
+			"midpoint": "0.00003871",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXDAI": {
+			"base_currency": "ZRX",
+			"counter_currency": "DAI",
+			"bid": "0.29799084",
+			"midpoint": "0.31861743",
+			"ask": "0.30401086",
+			"roundtrip_spread": "1.9802"
+		},
+		"ZRXETH": {
+			"base_currency": "ZRX",
+			"counter_currency": "ETH",
+			"bid": "0.00180872",
+			"midpoint": "0.00184099",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXEUR": {
+			"base_currency": "ZRX",
+			"counter_currency": "EUR",
+			"bid": "0.28734783",
+			"midpoint": "0.28833745",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXGBP": {
+			"base_currency": "ZRX",
+			"counter_currency": "GBP",
+			"bid": "0.24750061",
+			"midpoint": "0.24835303",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXLTC": {
+			"base_currency": "ZRX",
+			"counter_currency": "LTC",
+			"bid": "0.00582145",
+			"midpoint": "0.00586956",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXUSD": {
+			"base_currency": "ZRX",
+			"counter_currency": "USD",
+			"bid": "0.32005528",
+			"midpoint": "0.32116",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXUSDC": {
+			"base_currency": "ZRX",
+			"counter_currency": "USDC",
+			"bid": "0.3193596",
+			"midpoint": "0.32116",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXXRP": {
+			"base_currency": "ZRX",
+			"counter_currency": "XRP",
+			"bid": "1.04873904",
+			"midpoint": "1.08555011",
+			"ask": null,
+			"roundtrip_spread": null
+		},
+		"ZRXZEC": {
+			"base_currency": "ZRX",
+			"counter_currency": "ZEC",
+			"bid": "0.00857111",
+			"midpoint": "0.00873667",
+			"ask": null,
+			"roundtrip_spread": null
+		}
+	}
+}
