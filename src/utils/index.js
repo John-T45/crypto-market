@@ -28,9 +28,23 @@ export function formatPrice(num) {
 	return formatedPrice;
 }
 
+/**
+ * Pads 0 before a single digit number
+ * @param num
+ * @returns {string}
+ */
+export function padZero(num) {
+	return String(num).padStart(2, '0');
+}
+
+/**
+ * Formats time from timestamp to hr:mn:sc
+ * @param timestamp
+ * @returns {string}
+ */
 export function formatTime(timestamp) {
 	const pt = new Date(timestamp);
-	return `${pt.getHours()}:${pt.getMinutes()}:${pt.getSeconds()}`
+	return `${pt.getHours()}:${padZero(pt.getMinutes())}:${padZero(pt.getSeconds())}`
 }
 
 /**
