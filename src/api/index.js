@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {formatPrice} from '../utils';
+import {formatPrice, formatCurrency, formatTime} from '../utils';
 import {constants} from '../constants';
 
 const TRADES_ENDPOINT = "https://api.coinjar.com/v3/exchange_rates";
@@ -15,9 +15,23 @@ function filterCoins(data) {
 				...constants[bc],
 				currencyPair: `${bc}/${cc}`,
 				routeParam: `${bc}${cc}`,
-				currencyPrice: formatPrice(item.midpoint),
+				currencyPrice: formatCurrency(formatPrice(item.midpoint)),
 			});
 		}
+	}
+	return filteredData;
+}
+
+function filterHistoryPrices(data) {
+	let filteredData = [];
+	for(let i in data) {
+		const item = data[i];
+		filteredData.push({
+			price: formatPrice(item.price),
+			timestamp: formatTime(item.timestamp),
+			taker_side: item.taker_side,
+			size: formatPrice(item.size)
+		});
 	}
 	return filteredData;
 }
@@ -26,7 +40,8 @@ export const getCoins = (onSuccess) => {
 	axios.get(TRADES_ENDPOINT)
 		.then(response => {
 			const data = response.data.exchange_rates;
-			onSuccess(filterCoins(data));
+			const filteredData = filterCoins(data);
+			onSuccess(filteredData);
 		})
 		.catch(error => {
 			throw new Error(error.message);
@@ -44,7 +59,8 @@ export const getCoinHistory = (currencyPair, onSuccess) => {
 	})
 		.then(response => {
 			const data = response.data;
-			onSuccess(data);
+			const filteredData = filterHistoryPrices(data);
+			onSuccess(filteredData);
 		})
 		.catch(error => {
 			throw new Error(error.message);

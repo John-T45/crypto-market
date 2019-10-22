@@ -1,3 +1,4 @@
+
 /**
  * Formats number to currency
  * @param x
@@ -24,7 +25,12 @@ export function formatPrice(num) {
 	else {
 		formatedPrice = Number(price.toPrecision(4));
 	}
-	return formatCurrency(formatedPrice);
+	return formatedPrice;
+}
+
+export function formatTime(timestamp) {
+	const pt = new Date(timestamp);
+	return `${pt.getHours()}:${pt.getMinutes()}:${pt.getSeconds()}`
 }
 
 /**
