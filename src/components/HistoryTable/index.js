@@ -4,6 +4,7 @@ import styled from 'styled-components/macro';
 import {constants} from "../../constants";
 import { color, fontWeight, space, compose } from "styled-system";
 import ResponsiveImage from "../ResponsiveImage";
+import Loader from "../Loader";
 
 const TableHeadRow = styled.div`
 	display: flex;
@@ -70,7 +71,7 @@ const HistoryTable = ({priceList}) => {
 				<Cell right>Size</Cell>
 			</TableHeadRow>
 			<TableContainer>
-				{priceList && priceList.length > 0 && priceList.map((i, idx) => (
+				{(priceList && priceList.length > 0) ? priceList.map((i, idx) => (
 					<TableCellRow key={idx}>
 						<div>
 							<Cell>{i.timestamp}</Cell>
@@ -78,7 +79,7 @@ const HistoryTable = ({priceList}) => {
 						</div>
 						<Cell right color="black">{i.size}</Cell>
 					</TableCellRow>
-				))}
+				)) : <Loader/>}
 			</TableContainer>
 		</div>
 	);
