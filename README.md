@@ -136,8 +136,5 @@ specification for adding human and machine readable meaning to commit messages.
 `yarn start`:			Start local development server.  
 `yarn build`:			Creates a production build.   
 `yarn test`:			Run unit tests.  
-`yarn test:e2e`:		Run End-to-end tests with cypress.  
 `yarn test:watch`:		Run unit tests in watch mode for development.  
-`yarn cy:open`:	        Run cypress and open the cypress app.   
-`yarn cy:run`:		    Run cypress in headless mode.  
 
