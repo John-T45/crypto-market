@@ -1,68 +1,141 @@
+# Crypto Market
+
+## Table of Contents
+
+* [Description](#user-content-description)
+* [Deployment Site](#user-content-static-build-site)
+* [Tech Used](#user-content-tech-used)
+* [Testing](#user-content-testing)
+* [Installation and Prerequisites](#user-content-installation-and-prerequisites)
+* [Getting Started](#user-content-getting-started)
+* [Directory Structure](#user-content-directory-structure)
+* [Version Control](#user-content-version-control)
+* [NPM scripts dictionary ](#user-content-npm-scripts-dictionary)
+
+
+# Description
+Building a simple two page/screen app used to explore prices of various cryptocurrencies available on the CoinJar platform
+This application showcases a minimalistic design with a strong focus on clean code, structure & organization, documentation
+and conventional commit messages for readability and generation of automated release changelogs.  
+
+# Deployment Site
+The production and Continuous Delivery is setup with Netlify.com.
+
+The live project site can be found at: [`https://crypto-market-cj.netlify.com`](https://crypto-market-cj.netlify.com).  
+For branch based build follow the link above in the `nelify` build badge.
+
+## Tech used
+This project mainly relies on the following libraries:  
+React, React-Hooks, styled-components, styled-system, axios, prop-types, create-react-app.
+
+
+## Testing
+For testing, this project is setup with the following testing tools and libraries:
+
+`Unit tests: jest`
+
+
+## Installation and Prerequisites
+
+### Node.js
+
+Install [Node.js](https://nodejs.org/en/download/). And use the latest version of NodeJS (>= v10 preferred).
+
+### Yarn
+Yarn was used of the development of this project, alternatively `npm` can be used which is installed along with Node.js.
+Note: If you decide to you `npm` instead, just replace `yarn` with `npm run` in the below commands;
+
+
+Install [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+
+## Getting started
+
+1. Clone this repo 
+```bash
+$ git clone https://github.com/praneybehl/crypto-market
+$ cd crypto-market
+```
+
+2. NPM scripts dictionary Install Dependencies
+```bash
+$ yarn
+```
+
+3. Build the project and start local dev server.
+```bash
+$ yarn start
+```
+The development server can be accessed at http://localhost:3000
+
+4. Build the project for production.
+```bash
+$ yarn build
+```
+
+5. Run Unit tests.
+```bash
+$ yarn test
+```
+
+
+## Directory Structure
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The the structure of the project is set to follow the hierarchy:
 
-## Available Scripts
+`app <- pages  <- components`.
 
-In the project directory, you can run:
+The project doesn't make use of any css frameworks and just the simple resets.
+The rest of the folders and files only exist to make your life easier, and should not need to be changed.
 
-### `yarn start`
+Below you can find full details about significant files and folders.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bass
+.                                       // Project folder.
+├── public                              // All public static assets go here.
+│   ├── fonts                           // Fonts files.
+│   ├── images                          // Image files.
+│   └── ...
+├── src                                 // Main source code directory.
+│   ├── App.js                          // Main App component.
+│   ├── index.js                        // React application boot.
+│   ├── api                             // Api methods.
+│   │   ├── __tests__                   // Api unit tests.
+│   │   │   └── index.js
+│   ├── constants                       // Constants for pages.
+│   ├── routes                          // Routes definition.
+│   ├── layouts                         // Page layouts.
+│   ├── components                      // All React Components go in here.
+│   │   ├── Header                      // Header component.
+│   │   │   └── index.js
+│   │   └── ...
+│   ├── pages                           // All pages go here.
+│   │   └── Home
+│   ├── │   └── index.js
+│   ├── theme                           // App theme folder.
+│   │   ├── global.js                   // Global styles.
+│   │   └── index.js                    // Project theme coinfiguration.
+│   ├── serviceWorker.js
+│   └── utils                           // Utility functions used in the project.
+│       ├── __tests__                   // Utility unit tests.
+│       ├── index.js                    // Utilities exports.
+├── .editorconfig                       // Editor configuration.
+├── package.json                        // Project dependencies.
+└── README.md                           // Documentation for project.
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Version Control
+This project is git version control along with [Conventional Commits](https://www.conventionalcommits.org/) 
+specification for adding human and machine readable meaning to commit messages.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## NPM scripts dictionary
 
-### `yarn build`
+`yarn start`:			Start local development server.  
+`yarn build`:			Creates a production build.   
+`yarn test`:			Run unit tests.  
+`yarn test:e2e`:		Run End-to-end tests with cypress.  
+`yarn test:watch`:		Run unit tests in watch mode for development.  
+`yarn cy:open`:	        Run cypress and open the cypress app.   
+`yarn cy:run`:		    Run cypress in headless mode.  
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
