@@ -7,7 +7,7 @@ const AppRoutes = () => {
     return (
         <Router>
             <HomePage path="/" />
-            <HistoryPage path="history/:currencyPair"/>
+            <HistoryPage path="/history/:currencyPair"/>
         </Router>
     )
 };
