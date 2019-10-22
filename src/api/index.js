@@ -30,7 +30,7 @@ function filterHistoryPrices(data) {
 			price: formatPrice(item.price),
 			timestamp: formatTime(item.timestamp),
 			taker_side: item.taker_side,
-			size: Number(item.size).toFixed(3)
+			size: formatPrice(item.size)
 		});
 	}
 	return filteredData;
@@ -49,7 +49,7 @@ export const getCoins = (onSuccess) => {
 };
 
 export const getCoinHistory = (currencyPair, onSuccess) => {
-	const endpoint = `https://data.exchange.coinjar.com/products/BTCAUD/trades`;
+	const endpoint = `https://data.exchange.coinjar.com/products/${currencyPair}/trades`;
 	axios.request({
 		method: 'GET',
 		url: endpoint,

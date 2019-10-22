@@ -87,7 +87,7 @@ const HistoryTable = ({priceList}) => {
 HistoryTable.propTypes = {
 	priceList: PropTypes.arrayOf(PropTypes.shape({
 		price: PropTypes.number,
-		size: PropTypes.string,
+		size: PropTypes.number,
 		taker_side: PropTypes.string,
 		timestamp: PropTypes.string,
 	}))
